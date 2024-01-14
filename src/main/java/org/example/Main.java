@@ -8,8 +8,8 @@ import com.microsoft.playwright.Playwright;
 public class Main {
     public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {
-            Browser browser = //playwright.chromium().launch();
-            playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            Browser browser = playwright.chromium().launch();
+            //playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
             Page page = browser.newPage();
             page.navigate("http://playwright.dev");
             System.out.println(page.title());
