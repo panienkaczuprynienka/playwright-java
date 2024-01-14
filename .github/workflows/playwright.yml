@@ -14,18 +14,18 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-#      - name: Build & Install
-#        run: mvn -B install -D skipTests --no-transfer-progress
-#      - name: Install Playwright
-#        run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
-#      - name: Run tests
-#        run: mvn compile exec:java -D exec.mainClass="org.example.Main"
-
-      - name: Set up Docker
-        run: docker build -t my-playwright-tests .
-
+      - name: Build & Install
+        run: mvn -B install -D skipTests --no-transfer-progress
       - name: Install Playwright
-        run: docker run -v ${{ github.workspace }}:/workspace -w /workspace my-playwright-tests mvn exec:java -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
+        run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
+      - name: Run tests
+        run: mvn compile exec:java -D exec.mainClass="org.example.Main"
 
-      - name: Run tests in Docker
-        run: docker run -v ${{ github.workspace }}:/workspace -w /workspace my-playwright-tests mvn compile exec:java -D exec.mainClass="org.example.Main"
+#      - name: Set up Docker
+#        run: docker build -t my-playwright-tests .
+#
+#      - name: Install Playwright
+#        run: docker run -v ${{ github.workspace }}:/workspace -w /workspace my-playwright-tests mvn exec:java -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
+#
+#      - name: Run tests in Docker
+#        run: docker run -v ${{ github.workspace }}:/workspace -w /workspace my-playwright-tests mvn compile exec:java -D exec.mainClass="org.example.Main"
