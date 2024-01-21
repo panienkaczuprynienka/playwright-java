@@ -1,42 +1,11 @@
-package org.example;
+package tests.testngTests;
 
-import com.microsoft.playwright.*;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-
-public class TestExample {
-    // Shared between all tests in this class.
-    Playwright playwright;
-    Browser browser;
-
-    // New instance for each test method.
-    BrowserContext context;
-    Page page;
-
-    @BeforeClass
-    void launchBrowser() {
-        playwright = Playwright.create();
-        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
-    }
-
-    @AfterClass
-    void closeBrowser() {
-        playwright.close();
-    }
-
-    @BeforeMethod
-    void createContextAndPage() {
-        context = browser.newContext();
-        page = context.newPage();
-    }
-
-    @AfterMethod
-    void closeContext() {
-        context.close();
-    }
+public class ExampleTestTestNg extends BaseTest {
 
     @Test
     void shouldClickButton() {
