@@ -1,0 +1,51 @@
+[ {
+  "uid" : "c5053669974a0d14",
+  "name" : "shouldCheckTheBox",
+  "time" : {
+    "start" : 1710689283376,
+    "stop" : 1710689283594,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da20a03a22e63f17",
+  "name" : "shouldSearchWiki",
+  "time" : {
+    "start" : 1710689284098,
+    "stop" : 1710689285349,
+    "duration" : 1251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60238722ae7bfbde",
+  "name" : "patkaTest",
+  "time" : {
+    "start" : 1710689283378,
+    "stop" : 1710689284838,
+    "duration" : 1460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5d9231fc50da0e3",
+  "name" : "shouldClickButton",
+  "time" : {
+    "start" : 1710689283822,
+    "stop" : 1710689283959,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "254a113d2f4b712f",
+  "name" : "mainTest",
+  "time" : {
+    "start" : 1710689283376,
+    "stop" : 1710689284079,
+    "duration" : 703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

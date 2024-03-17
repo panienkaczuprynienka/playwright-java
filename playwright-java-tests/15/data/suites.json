@@ -1,0 +1,90 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Playwright tests",
+    "children" : [ {
+      "name" : "Playwright Tests",
+      "children" : [ {
+        "name" : "tests.testngTests.MainTestTestNg",
+        "children" : [ {
+          "name" : "mainTest",
+          "uid" : "254a113d2f4b712f",
+          "parentUid" : "acee58304bc4c2aa1d3e68aeb8f27cc4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1710689283376,
+            "stop" : 1710689284079,
+            "duration" : 703
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "acee58304bc4c2aa1d3e68aeb8f27cc4"
+      }, {
+        "name" : "tests.testngTests.ExampleTestTestNg",
+        "children" : [ {
+          "name" : "shouldCheckTheBox",
+          "uid" : "c5053669974a0d14",
+          "parentUid" : "e5d1dd79742b1f5f17271f9883d46600",
+          "status" : "passed",
+          "time" : {
+            "start" : 1710689283376,
+            "stop" : 1710689283594,
+            "duration" : 218
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldClickButton",
+          "uid" : "c5d9231fc50da0e3",
+          "parentUid" : "e5d1dd79742b1f5f17271f9883d46600",
+          "status" : "passed",
+          "time" : {
+            "start" : 1710689283822,
+            "stop" : 1710689283959,
+            "duration" : 137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldSearchWiki",
+          "uid" : "da20a03a22e63f17",
+          "parentUid" : "e5d1dd79742b1f5f17271f9883d46600",
+          "status" : "passed",
+          "time" : {
+            "start" : 1710689284098,
+            "stop" : 1710689285349,
+            "duration" : 1251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5d1dd79742b1f5f17271f9883d46600"
+      }, {
+        "name" : "tests.testngTests.PatkaTest",
+        "children" : [ {
+          "name" : "patkaTest",
+          "uid" : "60238722ae7bfbde",
+          "parentUid" : "41264560d8385675c7464a2e3452dddc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1710689283378,
+            "stop" : 1710689284838,
+            "duration" : 1460
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "41264560d8385675c7464a2e3452dddc"
+      } ],
+      "uid" : "12d78dc3ebfe15da412f7b9c19d66406"
+    } ],
+    "uid" : "d1c149d5f2bd6a4a90d7d39437ed1393"
+  } ],
+  "name" : "suites"
+}
