@@ -9,6 +9,6 @@ public class PatkaTest extends BaseTest {
     public void patkaTest() {
         page.navigate("https://www.google.pl/");
         Assertions.assertThat(page.title()).contains("Google");
-       // Assertions.assertThat(1).isEqualTo(2);
+       //Assertions.assertThat(1).isEqualTo(2);
     }
 }

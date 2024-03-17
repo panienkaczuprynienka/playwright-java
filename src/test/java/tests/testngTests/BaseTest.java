@@ -47,7 +47,7 @@ public class BaseTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void afterTestMethod(ITestResult result) {
+    public void captureScrenshotAndLogDataIfFails(ITestResult result) {
         if (ITestResult.FAILURE == result.getStatus() || ITestResult.SUCCESS_PERCENTAGE_FAILURE == result.getStatus()
                 || ITestResult.SKIP == result.getStatus()) {
             CaptureAttachment.createScreenshot(page);
