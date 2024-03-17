@@ -44,3 +44,12 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+
+
+  Report:
+    runs-on: [ self-hosted, linux, 8gb ]
+    if: always()
+    steps:
+      - name: Report url
+        run: |
+          echo https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests/${{ github.run_number }}
