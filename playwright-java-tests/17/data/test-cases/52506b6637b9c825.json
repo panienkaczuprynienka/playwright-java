@@ -1,0 +1,189 @@
+{
+  "uid" : "52506b6637b9c825",
+  "name" : "mainTest",
+  "fullName" : "tests.testngTests.MainTestTestNg.mainTest",
+  "historyId" : "6d74bdcf2a49a5ff070bd5f46d9c59f1",
+  "time" : {
+    "start" : 1710691002035,
+    "stop" : 1710691002755,
+    "duration" : 720
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createContextAndPage",
+    "time" : {
+      "start" : 1710691001691,
+      "stop" : 1710691001858,
+      "duration" : 167
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1710690999531,
+      "stop" : 1710691001690,
+      "duration" : 2159
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeContext",
+    "time" : {
+      "start" : 1710691002764,
+      "stop" : 1710691003070,
+      "duration" : 306
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "captureScrenshotAndLogDataIfFails",
+    "time" : {
+      "start" : 1710691002763,
+      "stop" : 1710691002764,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1710691003072,
+      "stop" : 1710691003120,
+      "duration" : 48
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.testngTests.MainTestTestNg"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.testngTests.MainTestTestNg"
+  }, {
+    "name" : "testMethod",
+    "value" : "mainTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Playwright tests"
+  }, {
+    "name" : "suite",
+    "value" : "Playwright Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.testngTests.MainTestTestNg"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1040-591"
+  }, {
+    "name" : "thread",
+    "value" : "4978@fv-az1040-591.TestNG-test=Playwright Tests-2(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "67ac64cc58a7afb7",
+        "reportUrl" : "https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests/16/#testresult/67ac64cc58a7afb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710690762850,
+          "stop" : 1710690763574,
+          "duration" : 724
+        }
+      }, {
+        "uid" : "254a113d2f4b712f",
+        "reportUrl" : "https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests/15/#testresult/254a113d2f4b712f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710689283376,
+          "stop" : 1710689284079,
+          "duration" : 703
+        }
+      }, {
+        "uid" : "6f515764553d6d45",
+        "reportUrl" : "https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests/14/#testresult/6f515764553d6d45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710688286407,
+          "stop" : 1710688287085,
+          "duration" : 678
+        }
+      }, {
+        "uid" : "94949fb4196abc74",
+        "reportUrl" : "https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests/13/#testresult/94949fb4196abc74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710687073540,
+          "stop" : 1710687074364,
+          "duration" : 824
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "52506b6637b9c825.json",
+  "parameterValues" : [ ]
+}
