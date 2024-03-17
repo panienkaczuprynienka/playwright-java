@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 17 15:52:43 GMT 2024","Sun Mar 17 15:52:44 GMT 2024","1226","Playwright tests","Playwright Tests","tests.testngTests.ExampleTestTestNg","tests.testngTests.ExampleTestTestNg","shouldSearchWiki","shouldSearchWiki",""
+"passed","Sun Mar 17 15:52:42 GMT 2024","Sun Mar 17 15:52:44 GMT 2024","1696","Playwright tests","Playwright Tests","tests.testngTests.PatkaTest","tests.testngTests.PatkaTest","patkaTest","patkaTest",""
+"passed","Sun Mar 17 15:52:42 GMT 2024","Sun Mar 17 15:52:43 GMT 2024","724","Playwright tests","Playwright Tests","tests.testngTests.MainTestTestNg","tests.testngTests.MainTestTestNg","mainTest","mainTest",""
+"passed","Sun Mar 17 15:52:43 GMT 2024","Sun Mar 17 15:52:43 GMT 2024","196","Playwright tests","Playwright Tests","tests.testngTests.ExampleTestTestNg","tests.testngTests.ExampleTestTestNg","shouldClickButton","shouldClickButton",""
+"passed","Sun Mar 17 15:52:42 GMT 2024","Sun Mar 17 15:52:43 GMT 2024","181","Playwright tests","Playwright Tests","tests.testngTests.ExampleTestTestNg","tests.testngTests.ExampleTestTestNg","shouldCheckTheBox","shouldCheckTheBox",""
