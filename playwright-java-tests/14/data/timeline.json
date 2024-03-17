@@ -1,0 +1,86 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az841-395",
+    "children" : [ {
+      "name" : "4994@fv-az841-395.TestNG-test=Playwright Tests-2(20)",
+      "children" : [ {
+        "name" : "mainTest",
+        "uid" : "6f515764553d6d45",
+        "parentUid" : "0e57620a85f3d33bdfd2af5360e33b9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710688286407,
+          "stop" : 1710688287085,
+          "duration" : 678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e57620a85f3d33bdfd2af5360e33b9e"
+    }, {
+      "name" : "4994@fv-az841-395.TestNG-test=Playwright Tests-3(21)",
+      "children" : [ {
+        "name" : "shouldClickButton",
+        "uid" : "43366fbd3f7cdda3",
+        "parentUid" : "1869a6405fbc83333f40e307583ed482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710688286762,
+          "stop" : 1710688286919,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckTheBox",
+        "uid" : "1d5f1a139394e2ac",
+        "parentUid" : "1869a6405fbc83333f40e307583ed482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710688286407,
+          "stop" : 1710688286532,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSearchWiki",
+        "uid" : "b6850374bef175c9",
+        "parentUid" : "1869a6405fbc83333f40e307583ed482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710688287009,
+          "stop" : 1710688288356,
+          "duration" : 1347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1869a6405fbc83333f40e307583ed482"
+    }, {
+      "name" : "4994@fv-az841-395.TestNG-test=Playwright Tests-1(19)",
+      "children" : [ {
+        "name" : "patkaTest",
+        "uid" : "30876c4012f178ac",
+        "parentUid" : "c7990f9c5f797f8467ab98637bbd0ff2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710688286408,
+          "stop" : 1710688288133,
+          "duration" : 1725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7990f9c5f797f8467ab98637bbd0ff2"
+    } ],
+    "uid" : "a0a6fe9a2420847e7726d7ecbaab5760"
+  } ],
+  "name" : "timeline"
+}
