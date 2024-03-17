@@ -1,0 +1,142 @@
+{
+  "uid" : "d213bbc1de7060b7",
+  "name" : "patkaTest",
+  "fullName" : "tests.testngTests.PatkaTest.patkaTest",
+  "historyId" : "2c3e1be6867ddf46323351da897b81c9",
+  "time" : {
+    "start" : 1710687073541,
+    "stop" : 1710687075323,
+    "duration" : 1782
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createContextAndPage",
+    "time" : {
+      "start" : 1710687073182,
+      "stop" : 1710687073362,
+      "duration" : 180
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1710687070563,
+      "stop" : 1710687073151,
+      "duration" : 2588
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "captureScrenshotAndLogDataIfFails",
+    "time" : {
+      "start" : 1710687075325,
+      "stop" : 1710687075325,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeContext",
+    "time" : {
+      "start" : 1710687075326,
+      "stop" : 1710687075411,
+      "duration" : 85
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1710687075412,
+      "stop" : 1710687075440,
+      "duration" : 28
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.testngTests.PatkaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.testngTests.PatkaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "patkaTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Playwright tests"
+  }, {
+    "name" : "suite",
+    "value" : "Playwright Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.testngTests.PatkaTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az740-762"
+  }, {
+    "name" : "thread",
+    "value" : "4904@fv-az740-762.TestNG-test=Playwright Tests-1(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d213bbc1de7060b7.json",
+  "parameterValues" : [ ]
+}

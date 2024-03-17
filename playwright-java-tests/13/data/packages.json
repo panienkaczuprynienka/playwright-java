@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.testngTests",
+    "children" : [ {
+      "name" : "MainTestTestNg",
+      "children" : [ {
+        "name" : "mainTest",
+        "uid" : "94949fb4196abc74",
+        "parentUid" : "f25f5552df8db1096b9ca34cb1126bcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710687073540,
+          "stop" : 1710687074364,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f25f5552df8db1096b9ca34cb1126bcd"
+    }, {
+      "name" : "PatkaTest",
+      "children" : [ {
+        "name" : "patkaTest",
+        "uid" : "d213bbc1de7060b7",
+        "parentUid" : "60392a4accf40d9ceff73172b2c7fccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710687073541,
+          "stop" : 1710687075323,
+          "duration" : 1782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60392a4accf40d9ceff73172b2c7fccf"
+    }, {
+      "name" : "ExampleTestTestNg",
+      "children" : [ {
+        "name" : "shouldCheckTheBox",
+        "uid" : "cb55759e533b16e5",
+        "parentUid" : "148cbf89c38f67e3d6369f06fd2dbb80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710687073543,
+          "stop" : 1710687073727,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldClickButton",
+        "uid" : "b5a8ef4cb8a6aae",
+        "parentUid" : "148cbf89c38f67e3d6369f06fd2dbb80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710687073921,
+          "stop" : 1710687074087,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSearchWiki",
+        "uid" : "b4b7a436cc7c8dcc",
+        "parentUid" : "148cbf89c38f67e3d6369f06fd2dbb80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710687074200,
+          "stop" : 1710687076000,
+          "duration" : 1800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "148cbf89c38f67e3d6369f06fd2dbb80"
+    } ],
+    "uid" : "tests.testngTests"
+  } ],
+  "name" : "packages"
+}
