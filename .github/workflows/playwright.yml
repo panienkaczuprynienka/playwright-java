@@ -46,7 +46,7 @@ jobs:
           PUBLISH_DIR: allure-history
 
 
-  Report:
+  report:
     runs-on: ubuntu-latest
     if: always()
     steps:
