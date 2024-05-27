@@ -1,0 +1,90 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Playwright tests",
+    "children" : [ {
+      "name" : "Playwright Tests",
+      "children" : [ {
+        "name" : "tests.testngTests.PatkaTest",
+        "children" : [ {
+          "name" : "patkaTest",
+          "uid" : "5e53581ac002c8a",
+          "parentUid" : "41264560d8385675c7464a2e3452dddc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1716832795512,
+            "stop" : 1716832797208,
+            "duration" : 1696
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "41264560d8385675c7464a2e3452dddc"
+      }, {
+        "name" : "tests.testngTests.MainTestTestNg",
+        "children" : [ {
+          "name" : "mainTest",
+          "uid" : "8973dedcc51b6d0",
+          "parentUid" : "acee58304bc4c2aa1d3e68aeb8f27cc4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1716832795512,
+            "stop" : 1716832796232,
+            "duration" : 720
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "acee58304bc4c2aa1d3e68aeb8f27cc4"
+      }, {
+        "name" : "tests.testngTests.ExampleTestTestNg",
+        "children" : [ {
+          "name" : "shouldCheckTheBox",
+          "uid" : "70ca67830e38a610",
+          "parentUid" : "e5d1dd79742b1f5f17271f9883d46600",
+          "status" : "passed",
+          "time" : {
+            "start" : 1716832795516,
+            "stop" : 1716832795678,
+            "duration" : 162
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldClickButton",
+          "uid" : "72dad53c4d02c99e",
+          "parentUid" : "e5d1dd79742b1f5f17271f9883d46600",
+          "status" : "passed",
+          "time" : {
+            "start" : 1716832795890,
+            "stop" : 1716832796043,
+            "duration" : 153
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldSearchWiki",
+          "uid" : "6d838fc72e7107c2",
+          "parentUid" : "e5d1dd79742b1f5f17271f9883d46600",
+          "status" : "passed",
+          "time" : {
+            "start" : 1716832796159,
+            "stop" : 1716832797409,
+            "duration" : 1250
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5d1dd79742b1f5f17271f9883d46600"
+      } ],
+      "uid" : "12d78dc3ebfe15da412f7b9c19d66406"
+    } ],
+    "uid" : "d1c149d5f2bd6a4a90d7d39437ed1393"
+  } ],
+  "name" : "suites"
+}

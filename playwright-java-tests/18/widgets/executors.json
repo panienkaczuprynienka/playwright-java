@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #9258684392",
+  "buildUrl" : "https://github.com/panienkaczuprynienka/playwright-java/actions/runs/9258684392",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://panienkaczuprynienka.github.io/playwright-java/playwright-java-tests/18"
+} ]
