@@ -1,0 +1,31 @@
+name: Playwright Java Tests Docker
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 19
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'corretto'
+          java-version: '19'
+
+      - name: Build the project
+        run: ./mvnw clean install
+
+      - name: Run Playwright Java tests in Docker
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/workspace -w /workspace mcr.microsoft.com/playwright/java:v1.44.0-jammy \
+          bash -c "cd /workspace && ./mvnw test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml"
