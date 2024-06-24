@@ -23,9 +23,9 @@ jobs:
           java-version: '19'
 
       - name: Build the project
-        run: ./mvnw clean install
+        run: mvn clean install
 
       - name: Run Playwright Java tests in Docker
         run: |
           docker run --rm -v ${{ github.workspace }}:/workspace -w /workspace mcr.microsoft.com/playwright/java:v1.44.0-jammy \
-          bash -c "cd /workspace && ./mvnw test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml"
+          bash -c "cd /workspace && mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml"
