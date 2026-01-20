@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="PlaywrightTestSuite">
-    <test name="PlaywrightTests">
-        <classes>
-            <class name="org.example.Main"/>
-            <class name="org.example.TestExample"/>
-        </classes>
-    </test>
-</suite>
