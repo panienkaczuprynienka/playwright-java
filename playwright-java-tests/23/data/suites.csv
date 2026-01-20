@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1170","shouldSearchWiki","Playwright tests","Tue Jan 20 17:43:54 UTC 2026","passed","Tue Jan 20 17:43:55 UTC 2026","tests.testngTests.ExampleTestTestNg","Playwright Tests","tests.testngTests.ExampleTestTestNg","shouldSearchWiki"
+"","1371","patkaTest","Playwright tests","Tue Jan 20 17:43:54 UTC 2026","passed","Tue Jan 20 17:43:55 UTC 2026","tests.testngTests.PatkaTest","Playwright Tests","tests.testngTests.PatkaTest","patkaTest"
+"","130","shouldClickButton","Playwright tests","Tue Jan 20 17:43:54 UTC 2026","passed","Tue Jan 20 17:43:54 UTC 2026","tests.testngTests.ExampleTestTestNg","Playwright Tests","tests.testngTests.ExampleTestTestNg","shouldClickButton"
+"","164","shouldCheckTheBox","Playwright tests","Tue Jan 20 17:43:54 UTC 2026","passed","Tue Jan 20 17:43:54 UTC 2026","tests.testngTests.ExampleTestTestNg","Playwright Tests","tests.testngTests.ExampleTestTestNg","shouldCheckTheBox"
+"","384","mainTest","Playwright tests","Tue Jan 20 17:43:54 UTC 2026","passed","Tue Jan 20 17:43:54 UTC 2026","tests.testngTests.MainTestTestNg","Playwright Tests","tests.testngTests.MainTestTestNg","mainTest"
